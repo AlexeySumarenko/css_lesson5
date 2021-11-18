@@ -1,0 +1,18 @@
+
+article {
+    
+    background-color: #f5f4f1; 
+   
+}
+.fig {
+    display: inline-block; 
+    
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    
+}
