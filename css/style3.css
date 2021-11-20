@@ -1,18 +1,39 @@
 
-article {
-    
-    background-color: #f5f4f1; 
-   
-}
-.fig {
-    display: inline-block; 
-    
-}
+
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#444444;
     text-transform: uppercase;
-    margin: 0;
+    margin: 10px;
     font-weight: bold;
     text-align: center;
+    font-size: 16px;
     
+}
+.block-list {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	display: block;
+	border-collapse: collapse; 
+    border-left: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    background-color: #f5f4f1; 
+}
+.block-list ul {
+    padding: 0;
+    background-color: white;
+    margin:0;
+}
+.block-list li {
+    padding-top:5px;
+    padding-left:10px;
+    height: 24px;
+	display: block;	
+	border-bottom: 1px solid #dddddd;
+    
+}
+
+li:hover {
+    background-color:#71387c;
+    color:white;
 }
