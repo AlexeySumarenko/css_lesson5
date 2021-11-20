@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;  
+}
+.main {
+    width: 60vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+.block-yelow { 
+    width: 10vw;
+    height: 20vh;
+    display: inline-block;
+    background: none #ffcf73;
+    color:#6b8fd4;
+    line-height: 20vh;  
+}
+.block-blue {
+    width: 10vw;
+    height: 20vh;
+    display: inline-block;
+    background: none #6b8fd4;
+    color:#ffcf73;
+    line-height: 20vh;
+}
+
