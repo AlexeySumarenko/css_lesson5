@@ -3,14 +3,14 @@
     padding: 0;  
 }
 .main {
-    width: 60%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     text-align: center;
     margin: 0 auto;
 }
-.main .block-yelow { 
-    min-width: 10vw;
-    min-height: 20vh;
+.block-yelow { 
+    width: 20vh;
+    height: 20vh;
     display: inline-block;
     background: none #ffcf73;
     color:#6b8fd4;
@@ -18,9 +18,9 @@
     position: relative;
     
 }
-.main .block-blue {
-    min-width: 10vw;
-    min-height: 20vh;
+.block-blue {
+    width: 20vh;
+    height: 20vh;
     display: inline-block;
     background: none #6b8fd4;
     color:#ffcf73;
