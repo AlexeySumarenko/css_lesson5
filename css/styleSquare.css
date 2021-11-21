@@ -5,26 +5,24 @@
 .main {
     width: 100vh;
     height: 100vh;
-    text-align: center;
     margin: 0 auto;
 }
-.block-yelow { 
-    width: 20vh;
-    height: 20vh;
+.main div {
     display: inline-block;
+    float:left;
+    text-align: center; 
+}
+.main .block-yelow { 
     background: none #ffcf73;
     color:#6b8fd4;
-    line-height: 20vh;  
-    position: relative;
-    
 }
-.block-blue {
-    width: 20vh;
-    height: 20vh;
-    display: inline-block;
+.main .block-blue {
     background: none #6b8fd4;
-    color:#ffcf73;
-    line-height: 20vh;
-    position: relative;
+    color:#ffcf73; 
 }
-
+.main div p {
+    height: 20vh;
+    width: 20vh;
+    display: table-cell;
+    vertical-align: middle;
+}
