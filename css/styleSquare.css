@@ -6,23 +6,31 @@
     width: 100vh;
     height: 100vh;
     margin: 0 auto;
+    line-height:0; 
 }
 .main div {
     display: inline-block;
-    float:left;
-    text-align: center; 
-}
-.main .block-yelow { 
-    background: none #ffcf73;
-    color:#6b8fd4;
-}
-.main .block-blue {
-    background: none #6b8fd4;
-    color:#ffcf73; 
-}
-.main div p {
-    height: 20vh;
     width: 20vh;
-    display: table-cell;
+    height: 20vh;
+    text-align: center;
+}
+.block-yelow { 
+    background-color: #ffcf73;
+    color: #6b8fd4;
+}
+.block-blue {
+    background-color: #6b8fd4;
+    color:#ffcf73;
+}
+.block-yelow::after{
+    display: inline-block;
+    height:20vh;
     vertical-align: middle;
+    content: "";
+}
+.block-blue::after{
+    display: inline-block;
+    height:20vh;
+    vertical-align: middle;  
+    content: "";
 }
